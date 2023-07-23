@@ -1,3 +1,16 @@
+开启SPI接口
+打开树莓派终端，输入以下指令进入配置界面：
+sudo raspi-config
+选择Interfacing Options -> SPI -> Yes 开启SPI接口
+RPI open spi.png
+重启树莓派：
+sudo reboot
+检查 /boot/config.txt，可以看到 'dtparam=spi=on' 已被写入
+RPI open spi 1.jpg
+为了确保 SPI 没有被占用，建议其他的驱动覆盖暂时先关闭。可以使用 ls /dev/spi* 来检查 SPI 占用情况，终端输出 /dev/spidev0.0 和 /dev/spidev0.1 表示 SPI 情况正常
+RPI open spi 2.jpg
+
+
 运行python例程
 # 安装函数库
 sudo apt-get update  
