@@ -63,5 +63,6 @@ env.bak/
 venv.bak/
 
 
-imageprocess/images/
-imageprocess/bmp_images/
+imageprocess/jpg/
+imageprocess/bmp/
+images
