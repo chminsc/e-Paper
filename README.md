@@ -24,7 +24,7 @@ sudo pip3 install spidev
 git clone https://github.com/waveshare/e-Paper.git  
 
 运行程序
-# 确保在 e-Paper/RaspberryPi_JetsonNano/ 位置
+# 确保在 e-Paper位置
 cd python/programs/  
 python3 epd_7in3f_test.py 
 
