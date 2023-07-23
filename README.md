@@ -1,11 +1,11 @@
 运行python例程
 # 安装函数库
-sudo apt-get update 
-sudo apt-get install python3-pip 
-sudo apt-get install python3-pil 
-sudo apt-get install python3-numpy 
-sudo pip3 install RPi.GPIO 
-sudo pip3 install spidev 
+sudo apt-get update  
+sudo apt-get install python3-pip  
+sudo apt-get install python3-pil  
+sudo apt-get install python3-numpy  
+sudo pip3 install RPi.GPIO  
+sudo pip3 install spidev  
 
 # 通过 GitHub 下载程序（备用方式，已下载可跳过）
 git clone https://github.com/waveshare/e-Paper.git 
