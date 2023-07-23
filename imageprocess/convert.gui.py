@@ -110,4 +110,5 @@ def main():
     convert_images(args.input_folder, args.output_folder, args.dir, args.mode, args.dither)
 
 if __name__ == "__main__":
+    #to convert files in jpg to bmp files
     main()
