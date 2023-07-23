@@ -22,11 +22,10 @@ sudo pip3 install spidev
 
 # 通过 GitHub 下载程序（备用方式，已下载可跳过）
 git clone https://github.com/waveshare/e-Paper.git  
-cd e-Paper/RaspberryPi_JetsonNano/ 
 
 运行程序
 # 确保在 e-Paper/RaspberryPi_JetsonNano/ 位置
-cd python/examples/  
+cd python/programs/  
 python3 epd_7in3f_test.py 
 
 
