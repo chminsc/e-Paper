@@ -28,6 +28,8 @@ git clone https://github.com/waveshare/e-Paper.git
 cd python/programs/  
 python3 refreshimages.py 
 
+图片处理：
+jpg的landscape图像放在images目录，然执行jpg2bmp.py程序即可。之前不需要裁切（程序自动裁切）
 
  
  # e-Paper  

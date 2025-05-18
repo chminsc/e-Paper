@@ -4,6 +4,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+*.jpg
+*.bmp
+*.png
+*.gif
+*.jpeg
+*.webp
+*.tiff
+
+*/DS_Store
+
 # Distribution / packaging
 .Python
 build/
